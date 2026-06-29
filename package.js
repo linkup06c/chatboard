@@ -1,4 +1,4 @@
-{
+.{
   "name": "chat-server-completo-r2",
   "version": "1.0.0",
   "description": "Chat com áudio no Cloudflare R2, GIFs e Socket.IO",
