@@ -27,7 +27,7 @@ async function resetChat() {
   }
 }
 
-app.get("/reset-chat", async (req, res) => {
+app.get("/chatboard", async (req, res) => {
   const msg = await resetChat();
   res.send(msg);
 });
