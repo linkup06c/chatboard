@@ -133,7 +133,7 @@ app.post("/upload-image", upload.single("image"), async (req, res) => {
 MONGODB
 =============================== */
 
-mongoose.connect("mongodb+srv://sgoffc:e%2Dsports@cluster0.ojl9qde.mongodb.net/chat")
+mongoose.connect("mongodb+srv://linkup6c:jRzlwKI5tliQIjA2@linkup.uvwulmf.mongodb.net/chat")
 .then(() => console.log("MongoDB conectado"))
 .catch(err => console.error(err));
 
