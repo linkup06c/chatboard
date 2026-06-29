@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 
 const app = express();
 
-const uri = "mongodb+srv://sgoffc:e%2Dsports@cluster0.ojl9qde.mongodb.net/chat";
+const uri = "mongodb+srv://linkup6c:jRzlwKI5tliQIjA2@linkup.uvwulmf.mongodb.net/chat";
 
 async function resetChat() {
   const client = new MongoClient(uri);
